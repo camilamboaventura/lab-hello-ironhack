@@ -1,13 +1,82 @@
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  nav ul {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+  }
+
+  .background {
+    margin-top: -15px;
+    width: 93%;
+    height: 93vh;
+    background-image: url(images/react-logo.svg); 
+    background-color: #202534;
+  }
+
+  .imageTop {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+ 
+  .menu {
+    margin-top: 10px;
+    margin-right: 40px;
+  }
+
+  .say-hello {
+    color: white;
+  }
+
+  .button {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 90px;
+    margin-top: 140px;
+    
+  }
+
+  p {
+    margin-top: -20px;
+    width: 290px;
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+    width: 250px;
+  }
+
+  .component-img {
+    width: 130px;
+  }
+
+  .components-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+  }
+  
